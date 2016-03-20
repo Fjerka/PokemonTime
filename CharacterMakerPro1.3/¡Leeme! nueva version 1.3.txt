@@ -1,0 +1,65 @@
+/-------------------------------------------------------\
+|  Character Maker PRO v1.3 (Tercera edición)		|
+|  Crackeado por:					|
+|							|
+|  Ninjasuperk ;)	16/10/02			|
+\-------------------------------------------------------/
+
+Nueva version
+-------------
+
+Wolas a todos, por fin he terminado esta version crakeada del
+Character Maker Pro 1.3 la kual trae algunas mejoras kon respekto
+a la anterior:
+
+* Ya es posible grabar dibujos de mas de 256x256 pixeles.
+* Korregidas las fuentes para ke se lean apropiadamente. (ahora los
+  mensajes se ven 100 veces mejor)
+* Traducidas algunas palabras en ingles ke faltaban ;)
+* Traducidas algunas palabras en japones MUY DIFICILES DE ENKONTRAR.
+  (ke es la razon de mi demora en el crack)
+* Kitada la rutina de "Eskribe el kodigo de hoy" de raiz (komo
+  algun otro dia soñe :D) ahora ya no se necesita el archivo ke
+  antes akompañaba (adios Character maker Pro.reg) se podria decir
+  ke la crakeada esta kompleta.
+* Modifikado el about para distinguir la version 1.3 de la 1.2
+
+Kosas ke faltan hacer aun:
+
+* Aun falta el archivo de ayuda.
+* Aun faltan unas minuskulas kosillas por arreglar (muy pekeñas,
+  pero ahi estan, algun dia ekontrare su ubikacion y las editare)
+
+Historia:
+---------
+Version sin crack: 
+* Version del Character Maker 1.3 se distribuye sin crack en absoluto.
+
+Crack version 1.1:
+* Corregida una funcion en el archivo que impedia actuar
+al crack mismo, se distribuye el programa ya crackeado +
+un archivo .reg
+
+Crack version 1.0:
+* Primer crack que salio a la luz, se distribuye el programa
+ya crakeado + un archivo .reg
+
+Bienvenida:
+-----------
+
+Para todos los usuarios de RPG Maker y para mis amigos
+de Hellsoft :D aki les ofresko mi version del Character Maker PRO 1.3
+
+Creditos:
+---------
+
+Kiero agradecerme a mi mismo... xD por ser tan guapo y
+distribuir mi primer pinino en el mundo del krack a todo
+el ke lo necesite :D
+
+Kiero agradecer a Vegetal Gibber, por ser un estupendo
+kompañero de traduccion y konvertirse en mi mejor amigo
+(aunke hasta ahora no me manda una foto suya xD)
+Ademas un saludazo a CHRoNO por ser la persona ke me
+inicio en el mundo de la traduccion (junto a Bokudono) y
+me presento a "Vegetal the Gibber" :D
