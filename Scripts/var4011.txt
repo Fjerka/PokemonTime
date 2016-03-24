@@ -1,2 +1,3 @@
 Hodnota	Kde	Na	Co
 0	4.2 	1	= spousti kec po vyjiti z prvni mistnosti
+1	4.4	2	= umozni vstup do rivalova pokoje
