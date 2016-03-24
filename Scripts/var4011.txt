@@ -1,0 +1,2 @@
+Hodnota	Kde	Na	Co
+0	4.2 	1	= spousti kec po vyjiti z prvni mistnosti
