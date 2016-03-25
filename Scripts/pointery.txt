@@ -1,0 +1,7 @@
+	Overworld Palette Table
+Original
+Offset		Pointery
+0x3A5158	0x5F4D8, 0x5F570, 0x5F5C8
+New Location
+0x3ACC10
+The orginal palette table is located at 0x3A5158 in FireRed and the pointers to the table that you need to change are at 0x5F4D8, 0x5F570 and 0x5F5C8
