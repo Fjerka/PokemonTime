@@ -1,2 +1,4 @@
 cislo	kde	co/kdo
 200	4.4	nanny zmizi pote co rekne hraci aby sehnal gallery key
+201	4.0	obdrzen gallery key
+202	4.2	pro nezobrazovani rivala

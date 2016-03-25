@@ -1,3 +1,5 @@
 Hodnota	Kde	Na	Co
 0	4.2 	1	= spousti kec po vyjiti z prvni mistnosti
 1	4.4	2	= umozni vstup do rivalova pokoje
+2	4.2	3	= po odejiti rivala
+3	4.0	4	= po ziskani gallery key
