@@ -1,0 +1,34 @@
+4.1	presun do postele
+	objevi se ! "Yawn!" Vyleze z postele ven. "Finally, today is here! I should find nanny. She is usually in the kitchen this time of the day."
+4.2	neni mozne jit do rivalova pokoje
+4.3	je mozne jit pouze do kuchyne
+4.5
+4.4	nanny walk up and down
+	"\v\h01: Hi, nanny.\pRosemary: Hello, young master\miss. What brings you to see me this early in the morning? \p\v\h01: Did you find the key to the gallery?\pRosemary: Are you sure you\nwant to do it?\lThere's no going back.\p\v\h01: I'm sure.\nSo did you find it?\pRosemary: It's in \v\h06's room.\pWhen you have the key meet me\nin front of the gallery.
+	When you have the key meet me in front of the gallery.
+	nastavit flag pro odstraneni nanny
+4.5
+4.3	neni mozne jit do gallery chodby 4.7
+4.2	potkas rivala
+	objevi se !, "\v\h06: \v\h01!", prijde k tobe, "\v\h06: You know what?\pGrandfather called to see me!\nI bet he'll give some amazing\lPok\emon!\pBhahahaha!\pSee you later,\ncousin[.]
+	rival odejde z mapy
+4.0	mansion key hidden v jedne z knihoven
+	po vstupu do pokoje "Where have my bookworm of a cousin hidden the key?"
+	Finally, I found it!\nGallery is downstairs\lon the right.\pNanny should be there\nwaiting for me.
+4.2
+4.3	pruchod do gallery
+4.7	nanny kouka nahoru, ty prijdes k ni skriptem "Rosemary: Do you have\nthe key? \v\h01: Yes! Rosemary: Ok, even thought your grandfather is against it if you wanna become a Pok\emon trainer you should pick one of the Pok\emon from the exhibition. Take these." obtain 5x potion "You might need them. Good luck. \v\h01: Thanks, nanny."
+	nanny leaves
+4.6	9 pokebalu? jeden vyberes
+	bulbasaur - A seed pok\emon, Bulbasaur. Do I want to take it? 
+	charmander - A lizard Pok\emon, Charmander. Should I go with it?
+	squirtle - A tiny turtle Pok\emon, Squirtle. Is it my choice?
+	mareep - A wool Pok\emon, Mareep. Is this the one for me?
+	larvitar - A rock skin Pok\emon, Larvitar. Is this going to be my partner?
+	treecko - A wood gecko Pok\emon, treecko. Do I stick with it?
+	torchic - A chick Pok\emon, Torchic. Is this one comming with me?
+	mudkip - A mud fish Pok\emon, Mudkip. Will I pick this one?
+	aron - An iron armor Pok\emon, Aron. Is this the one, I'm looking for?
+	po prvni otazce dialog yes - no, player obtained blabla, nickname?
+	vyskoci rival a dedecek vyjdou ze dveri, 
+	
