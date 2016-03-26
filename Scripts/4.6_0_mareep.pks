@@ -2,6 +2,9 @@
 #org @main
 lock
 faceplayer
+setvar 0x4050 0X0
+setvar 0x4055 0x2
+setflag 0x4001
 setvar 0x4001 0x0 'pozice
 setvar 0x4002 0x1 'cislo pro obrazek index v pkdxu
 'napsat text pro zbyvajici pokemony potom co si vzal hrac a rival
@@ -77,10 +80,13 @@ if == call @nick
 closemsg
 'cast s rivalem... zopakovat 9x
 'compare 0x4001 0x
+setvar 0x4055 0x3
+setvar 0x4070 0x1
 release
 end
 
 #org @nick
+setvar 0x8004 0x0
 fadescreen FADEOUT_BLACK
 special NAME_POKEMON
 waitspecial
