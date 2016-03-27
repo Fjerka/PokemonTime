@@ -1,4 +1,0 @@
-Index Number		34
-Description		74049A
-Picture Offset		8048A0
-Pallete Offset		80495C

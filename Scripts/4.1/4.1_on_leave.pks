@@ -16,4 +16,4 @@ textcolor BLUE
 return
 
 #org @speak
-= Finally, today is here!\nI should find nanny.\pShe is usually in the kitchen\nthis time of the day.
+= \v\h01: Finally, today is here!\nI should find nanny.\pShe is usually in the kitchen\nthis time of the day.

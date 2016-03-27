@@ -30,5 +30,13 @@
 	mudkip - A mud fish Pok\emon, Mudkip. Will I pick this one?
 	aron - An iron armor Pok\emon, Aron. Is this the one, I'm looking for?
 	po prvni otazce dialog yes - no, player obtained blabla, nickname?
-	vyskoci rival a dedecek vyjdou ze dveri, 
+	vyskoci rival vyjde ze dveri, "\v\h06: I knew it! I knew you were\nplanning something.\pI just told grandfather\nabout it.\pAnd he didn't want to\nbelieve me.\p\v\h01: I'm leaving, \v\h06. There's\nnothing you can do to stop me.\p\v\h06: You can go if you want\nto for all I care.\pGrandfather decided that I should\ntake one of these Pok\emon\pSince you have already stolen\n(ify na vybraneho pkmna) it's only logical\pthat I will pick the one\nwhich is sure to be strong\lagainst yours - (jmeno pkmna)."
+	rival si dojde k pokebalu a vezme si prislusneho pkmna (ve skriptu jenom zmizi pokebal) a dojde zpatky k tobe "\v\h06: Let's see if I can\nstop you or not." a spusti se zapas.
+	kdyz vyhraje rival "\v\h06: I knew I was better than you. Just wait untill I tell grandfather."
+	kdyz vyhraje hrac "\v\h06: Darn! You cheated! Just wait untill I tell grandfather."
+	rival odejde z pokoje
+4.7	
+4.3	skript dojde hrace na 0x01 0x0A a uvidi dedu a rivala na schodech "Grandfather: \v\h01, stop this\nnonsence this moment!\pReturn the Pok\emon you stole\nand let's forget all about\lthis unpleasant event.\p\v\h01: No way! I wanna become\nthe best Pok\emon trainer and\lyou can't keep me here forever!\pGrandfather: I will not tolarate this. Guards, stop him(her)!\p\v\h06: Guards! Guards! Where are they?"
+	hrace to odpochoduje ven.
+3.0	
 	

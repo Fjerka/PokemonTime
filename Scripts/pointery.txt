@@ -1,10 +1,26 @@
 	Overworld Palette Table
 Original
 Offset		Pointery
-0x3A5158	0x5F4D8, 0x5F570, 0x5F5C8
-New Location
-0x3ACC10
+3A5158		5F4D8, 5F570, 5F5C8
+New Location = 729800
 The orginal palette table is located at 0x3A5158 in FireRed and the pointers to the table that you need to change are at 0x5F4D8, 0x5F570 and 0x5F5C8
+
+	Overworld Sprite Data
+Original
+offset (kde)	Pointery (odkazy) cela tabula neprepisovat!
+3A3BB0		39FDB0
+New Location = 728000
+
+	Tabulka Pointeru na Overworld sprite data
+Original
+Offset (kde)	Pointery (odkazy)
+39FDB0		05F2F4
+New Locaiton = 727C00
+
+	Max limit overworld spritu
+Original
+offset		Hodnota		Nova hodnota
+5F2E0		0x97		99
 
 Lokace headeru pro tilesety 2D4A94
 	druha hodnota tilesetu 16 (s 0 je to 17) prepsana z 01 na 00 a pointer na palety zmenen z B8A327 na 947627 (aka paleta tilesetu 12 - s 0 je to 13) behavior data zmeneno z B0DB71 na B4FF2A

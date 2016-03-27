@@ -1,0 +1,1 @@
+improtovat obrazky a palety z nse compresed!!!
