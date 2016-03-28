@@ -1,13 +1,13 @@
 #dyn 0x740000
 #org @start
-lock
+lockall
 textcolor RED
 checkgender
 compare LASTRESULT BOY
 if == call @boy1
 message @talk
 callstd MSG_NORMAL
-release
+releaseall
 end
 
 #org @boy1

@@ -1,20 +1,21 @@
 #dyn 0x740000
 #org @start
-lock
+lockall
 checkitem 0x34 0x01
 compare LASTRESULT 0x0
-if == jump @notfound
+if != jump @found
+releaseall
+end
+
+#org @found
 textcolor RED
 checkgender
 compare LASTRESULT BOY
 if == call @boy1
 message @gallery
 callstd MSG_NORMAL
-setvar 0x4011 0x3
-release
-end
-
-#org @notfound
+setvar 0x4011 0x4
+releaseall
 end
 
 #org @boy1

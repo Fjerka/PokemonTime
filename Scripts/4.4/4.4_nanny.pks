@@ -9,7 +9,6 @@ setflag 0x0200
 checkgender
 compare LASTRESULT BOY
 if == jump @boy
-msgbox @text ' \v\h1: Hello, Rosemary.\p
 textcolor RED
 message @text1
 callstd MSG_NORMAL

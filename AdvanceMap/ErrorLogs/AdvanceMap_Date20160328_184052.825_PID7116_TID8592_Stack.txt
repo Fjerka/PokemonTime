@@ -1,0 +1,25 @@
+(EInOutError) Access denied
+Stacktrace:
+  $00580FBF
+  $005813F1
+  $004700D0
+  $00472E57
+  $0051A394
+  $0053D691
+  $0053BD90
+  $005195D0
+  $0051A0FD
+  $0040AFFA
+  $00518358
+  $0050FC57
+  $00510D0E
+  $0056FE17
+  $0052F6E5
+  $75B762FA
+  $75B76D3A
+
+AdvanceMap Version: 1.9.5.0
+
+There is no Rom Loaded.
+
+There is no Rom Loaded.

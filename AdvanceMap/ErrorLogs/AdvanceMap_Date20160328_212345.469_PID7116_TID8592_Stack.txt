@@ -1,0 +1,38 @@
+(ENotAPointer) AdvanceMapError(5): The value at $3528A4 is not a Pointer! Please contakt luhopoke@gmail.com
+Stacktrace:
+  $00580366
+  $00459F8D
+  $0046FA01
+  $0046F8C7
+  $00476FFA
+  $004677D8
+  $0051A394
+  $0055BF7F
+  $0055C456
+  $0055C9B1
+  $0055BE1A
+  $0040AFFA
+  $00510E72
+  $0056FE17
+  $0052F6E5
+  $75B762FA
+  $75B76D3A
+
+AdvanceMap Version: 1.9.5.0
+
+Rom informations:
+Filename: C:\Users\Verka\Documents\GitHub\Temp\Pokemon Dark Rising.gba
+Romname: POKEMON FIREBPRE
+
+Actual position:
+aktModularForm: AMMainForm
+CurrentViewID: 2
+MapIndex: 0.0
+OldMapIndex: 0.0
+LoadingMapIndex: 0.0
+isMapFile: false
+MapHeaderData: E8892D08DCE03A0878041608000000002F012F00C400000800000008
+MapFooterData: 0100000001000000E4882D08EC882D08B44B2D08444C2D0802020000
+EventHeaderData: 0102020094E03A08ACE03A08BCE03A0800000000
+Connections (ConDataOffset/ConnectionAmount): $000000 / 0
+WildPokemonHeader: FFFF000077777777777777777777777777777777
