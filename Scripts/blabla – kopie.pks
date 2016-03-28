@@ -7,8 +7,7 @@ compare LASTRESULT BOY
 if == call @boy1
 message @talk
 callstd MSG_NORMAL
-setflag 0x422
-setvar 0x5010 0x1
+setvar 0x4012 0x1
 releaseall
 end
 
