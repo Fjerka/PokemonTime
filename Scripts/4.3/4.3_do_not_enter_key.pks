@@ -17,7 +17,7 @@ textcolor BLUE
 return
 
 #org @key
-= \v\h01: I should find\nthe gallery key first.
+= \v\h01: I should find\nthe Gallery Key first.
 
 #org @back
 M walk_right end

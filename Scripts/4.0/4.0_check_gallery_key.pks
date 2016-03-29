@@ -14,7 +14,7 @@ compare LASTRESULT BOY
 if == call @boy1
 message @gallery
 callstd MSG_NORMAL
-setvar 0x4011 0x4
+setvar 0x4011 0x5
 releaseall
 end
 

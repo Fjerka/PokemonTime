@@ -1,4 +1,4 @@
-#dyn 0x740000
+#dyn 0x73FFFF
 #org @start
 lockall
 textcolor RED
@@ -7,6 +7,7 @@ compare LASTRESULT BOY
 if == call @boy1
 message @talk
 callstd MSG_NORMAL
+setvar 0x4011 0x4
 releaseall
 end
 

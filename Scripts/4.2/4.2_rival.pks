@@ -2,9 +2,7 @@
 #org @main
 lockall
 getplayerxy 0x4001 0x4002
-compare 0x4001 0x00
-if == call @up
-compare 0X4002 0x0C
+compare 0x4002 0x0C
 if == call @right
 reappear 0x1
 playsound 0x0 0x013B
@@ -28,11 +26,6 @@ setvar 0x4011 0x3
 releaseall
 end
 
-#org @up
-applymovement PLAYER @upmon
-pauseevent 0x0
-return
-
 #org @right
 applymovement PLAYER @rightmon
 pauseevent 0x0
@@ -41,9 +34,6 @@ return
 #org @callrival
 = \v\h06: \v\h01!
 
-#org @upmon
-M walk_up walk_up walk_right end
-
 #org @rightmon
 M walk_up look_right end
 
@@ -51,13 +41,13 @@ M walk_up look_right end
 M look_left say_! end
 
 #org @walk
-M walk_left walk_down walk_down walk_left walk_left walk_left walk_left end
+M walk_left walk_down walk_down walk_left walk_left walk_left walk_left walk_left end
 
 #org @rival
 = \v\h06: You know what?\pGrandfather called to see me!\nI bet he'll give me some amazing\lPok\emon!\pSee you later,\ncousin[.]
 
 #org @look
-M pause_long look_down pause_long look_left end
+M pause_long look_down end
 
 #org @leave
-M walk_down walk_left walk_left end
+M walk_down walk_left end

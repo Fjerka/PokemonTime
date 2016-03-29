@@ -23,12 +23,13 @@ message @rose2
 callstd MSG_NORMAL
 copyvarifnotzero 0x8000 POTION
 copyvarifnotzero 0x8001 0x5
-callstd MSG_FIND
+callstd MSG_OBTAIN
+textcolor RED
 message @rose3
 callstd MSG_NORMAL
 message @boy2
 callstd MSG_NORMAL
-setvar 0x4012 0x1
+setvar 0x4011 0x6
 releaseall
 end
 
@@ -42,10 +43,10 @@ message @rosegirl1
 callstd MSG_NORMAL
 copyvarifnotzero 0x8000 POTION
 copyvarifnotzero 0x8001 0x5
-callstd MSG_FIND
+textcolor RED
 message @rosegirl2
 callstd MSG_NORMAL
-setvar 0x4012 0x1
+setvar 0x4011 0x6
 releaseall
 end
 
@@ -74,7 +75,7 @@ M walk_left walk_left walk_left walk_left walk_left walk_up walk_up end
 = Rosemary: You might need them.\nGood luck.
 
 #org @boy2
-= \p\v\h01: Thanks, nanny.
+= \v\h01: Thanks, nanny.
 
 #org @editmov
 M walk_up end

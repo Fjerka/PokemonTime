@@ -22,7 +22,7 @@
 4.6	9 pokebalu? jeden vyberes
 	bulbasaur - A seed pok\emon, Bulbasaur. Do I want to take it? 
 	charmander - A lizard Pok\emon, Charmander. Should I go with it?
-	squirtle - A tiny turtle Pok\emon, Squirtle. Is it my choice?
+	squirtle - A tiny turtle Pok\emon Squirtle. Is it my choice?
 	mareep - A wool Pok\emon, Mareep. Is this the one for me?
 	larvitar - A rock skin Pok\emon, Larvitar. Is this going to be my partner?
 	treecko - A wood gecko Pok\emon, treecko. Do I stick with it?
@@ -35,7 +35,7 @@
 	kdyz vyhraje rival "\v\h06: I knew I was better than you. Just wait untill I tell grandfather."
 	kdyz vyhraje hrac "\v\h06: Darn! You cheated! Just wait untill I tell grandfather."
 	rival odejde z pokoje
-4.7	
+4.7	pridat mluveni pro nanny
 4.3	skript dojde hrace na 0x01 0x0A a uvidi dedu a rivala na schodech "Grandfather: \v\h01, stop this\nnonsence this moment!\pReturn the Pok\emon you stole\nand let's forget all about\lthis unpleasant event.\p\v\h01: No way! I wanna become\nthe best Pok\emon trainer and\lyou can't keep me here forever!\pGrandfather: I will not tolarate this. Guards, stop him(her)!\p\v\h06: Guards! Guards! Where are they?"
 	hrace to odpochoduje ven.
 3.0	

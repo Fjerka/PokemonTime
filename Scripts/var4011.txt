@@ -1,6 +1,8 @@
 Hodnota	Kde	Na	Co
 0	4.1 	1	= spousti kec pred vyjitim z prvni mistnosti
 1	4.4	2 	= nastaven pri rozmluve s nanny umozni vstup k rivalovi
-2	4.0	3	= po rozhovoru s rivalem
-3	4.0	4	= po ziskani klice do gallery, umozni vstup do gallery predsine
-4	4.7	5	= po rozhovoru s nanny
+2	4.2	3	= po rozhovoru s rivalem
+3	4.0	4	= po kecu po vstupu do mistnosti
+4	4.0	5	= po ziskani klice do gallery, umozni vstup do gallery predsine
+5	4.7	6	= po rozhovoru s nanny
+6	4.7	7	= po odemknuti dveri
