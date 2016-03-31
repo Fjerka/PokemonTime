@@ -25,6 +25,7 @@ callstd MSG_NORMAL
 message @unlocked
 callstd MSG_NORMAL
 setvar 0x4011 0x7
+setflag 0x028
 releaseall
 end
 

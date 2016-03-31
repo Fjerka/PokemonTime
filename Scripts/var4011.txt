@@ -6,3 +6,4 @@ Hodnota	Kde	Na	Co
 4	4.0	5	= po ziskani klice do gallery, umozni vstup do gallery predsine
 5	4.7	6	= po rozhovoru s nanny
 6	4.7	7	= po odemknuti dveri
+7	4.6	8	= po ziskani prvniho pokemona a po bitve s rivalem

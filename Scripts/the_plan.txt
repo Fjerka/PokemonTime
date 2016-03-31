@@ -20,15 +20,15 @@
 4.7	nanny kouka nahoru, ty prijdes k ni skriptem "Rosemary: Do you have\nthe key? \v\h01: Yes! Rosemary: Ok, even thought your grandfather is against it if you wanna become a Pok\emon trainer you should pick one of the Pok\emon from the exhibition. Take these." obtain 5x potion "You might need them. Good luck. \v\h01: Thanks, nanny."
 	nanny leaves
 4.6	9 pokebalu? jeden vyberes
-	bulbasaur - A seed pok\emon, Bulbasaur. Do I want to take it? 
-	charmander - A lizard Pok\emon, Charmander. Should I go with it?
-	squirtle - A tiny turtle Pok\emon Squirtle. Is it my choice?
-	mareep - A wool Pok\emon, Mareep. Is this the one for me?
-	larvitar - A rock skin Pok\emon, Larvitar. Is this going to be my partner?
-	treecko - A wood gecko Pok\emon, treecko. Do I stick with it?
-	torchic - A chick Pok\emon, Torchic. Is this one comming with me?
-	mudkip - A mud fish Pok\emon, Mudkip. Will I pick this one?
-	aron - An iron armor Pok\emon, Aron. Is this the one, I'm looking for?
+	0x01 bulbasaur - A seed pok\emon, Bulbasaur. Do I want to take it? 
+	0X04charmander - A lizard Pok\emon, Charmander. Should I go with it?
+	0x07 squirtle - A tiny turtle Pok\emon Squirtle. Is it my choice?
+	0xB3 mareep - A wool Pok\emon, Mareep. Is this the one for me?
+	0xF6 larvitar - A rock skin Pok\emon, Larvitar. Is this going to be my partner?
+	0x115 treecko - A wood gecko Pok\emon, treecko. Do I stick with it?
+	0x118 torchic - A chick Pok\emon, Torchic. Is this one comming with me?
+	0x11B mudkip - A mud fish Pok\emon, Mudkip. Will I pick this one?
+	0x17E aron - An iron armor Pok\emon, Aron. Is this the one, I'm looking for?
 	po prvni otazce dialog yes - no, player obtained blabla, nickname?
 	vyskoci rival vyjde ze dveri, "\v\h06: I knew it! I knew you were\nplanning something.\pI just told grandfather\nabout it.\pAnd he didn't want to\nbelieve me.\p\v\h01: I'm leaving, \v\h06. There's\nnothing you can do to stop me.\p\v\h06: You can go if you want\nto for all I care.\pGrandfather decided that I should\ntake one of these Pok\emon\pSince you have already stolen\n(ify na vybraneho pkmna) it's only logical\pthat I will pick the one\nwhich is sure to be strong\lagainst yours - (jmeno pkmna)."
 	rival si dojde k pokebalu a vezme si prislusneho pkmna (ve skriptu jenom zmizi pokebal) a dojde zpatky k tobe "\v\h06: Let's see if I can\nstop you or not." a spusti se zapas.

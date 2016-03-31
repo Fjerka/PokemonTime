@@ -1,2 +1,0 @@
-Hodnota	Kde	Na	Co
-0	4.0 	1	= spousti kec pri prichodu do mistnosti
