@@ -23,4 +23,4 @@ textcolor BLUE
 return
 
 #org @gallery
-= \v\h01: Finally, I found it!\nGallery is downstairs\lon the right.\pNanny should be waiting\nfor me there.
+= \v\h01: Finally, I found it!\nThe gallery is downstairs\lon the left.\pNanny should be waiting\nfor me there.

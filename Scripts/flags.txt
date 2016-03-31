@@ -1,13 +1,13 @@
 cislo	kde	co/kdo
 200	4.4	nanny zmizi pote co rekne hraci aby sehnal gallery key
 201	4.2	pro nezobrazovani rivala
-202	4.6	pokebal pro mareep
-203	4.6	pokebal pro squirtle
-204	4.6	pokebal pro aaron
-205	4.6	pokebal pro pupitar
-206	4.6	pokebal pro charmander
-207	4.6	pokebal pro treecko
-208	4.6	pokebal pro mudkip
-209	4.6	pokebal pro torchic
-210	4.6	pokebal pro bulbasaur
+202	4.6	pokebal pro bulbasaur 1
+203	4.6	pokebal pro charmander 2
+204	4.6	pokebal pro squirtle 3
+205	4.6	pokebal pro mareep 4
+206	4.6	pokebal pro pupitar 5
+207	4.6	pokebal pro treecko 6
+208	4.6	pokebal pro torchic 7
+209	4.6	pokebal pro mudkip 8
+210	4.6	pokebal pro aron 9
 028	4.6	rival

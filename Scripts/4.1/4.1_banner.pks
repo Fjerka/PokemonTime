@@ -6,4 +6,4 @@ callstd MSG_SIGN
 end
 
 #org @window
-= Our family banner is everwhere[.]
+= Our family banner is everywhere[.]

@@ -34,12 +34,13 @@ end
 
 #org @yespok1
 hidepokepic
+copyvar 0x8004 LASTRESULT
 addpokemon 0XB3 0x5 NONE 0x0 0x0 0x0
-disappear 0x1
+disappear 0x04
 textcolor GREY
 copyvar 0x8012 0x8013
 fanfare 0x13E
-setvar 0x4031 0x01 '0x4031 ulozeni cisla startovniho pkmna
+setvar 0x4031 0x04 '0x4031 ulozeni cisla startovniho pkmna
 setvar 0x4011 0x08
 message @pok1
 callstd MSG_NOCLOSE
@@ -54,6 +55,7 @@ if == jump @close
 jump @ending
 
 #org @nick
+setvar 0x8004 0x0
 fadescreen FADEOUT_BLACK
 special NAME_POKEMON
 waitspecial
@@ -64,9 +66,8 @@ closemsg
 jump @ending
 
 #org @ending
-disappear 0x1
 setflag FR_POKEMON
-setflag 0x202
+setflag 0x205
 applymovement PLAYER @position
 pauseevent 0x0
 jump @rivalenter
@@ -91,20 +92,24 @@ textcolor RED
 message @rival1
 callstd MSG_NORMAL
 applymovement 0x0A @gopick
+applymovement PLAYER @watch
 pauseevent 0x0
 fanfare 0x13E
 textcolor GREY
 message @rival2
 callstd MSG_NORMAL
-setflag 0x210
-disappear 0x09
+setflag 0x202
+disappear 0x01
 applymovement 0x0A @walkback
+applymovement PLAYER @watchback
 pauseevent 0x0
 textcolor RED
 message @rival3
 callstd MSG_NORMAL
 trainerbattle 0x9 0x001 0x3 @loser @winner 'loser - rival prohral
 special HEAL_POKEMON
+message @rival4
+callstd MSG_NORMAL
 applymovement 0x0A @leave
 pauseevent 0x0
 fadescreen FADEOUT_BLACK
@@ -128,10 +133,10 @@ end
 = That's one of the Pok\emon\nleft in the gallery.
 
 #org @position
-M walk_down walk_down walk_down walk_down end
+M walk_down walk_right walk_right look_down end
 
 #org @look
-M look_up end
+M walk_left walk_left walk_left walk_left walk_left walk_left look_up end
 
 #org @rival0
 = \v\h06: I knew it! I knew you were\nplanning something.\pI just told grandfather\nabout it.\pAnd he didn't want to\nbelieve me[.]
@@ -143,22 +148,31 @@ M look_up end
 = \v\h06: You can go if you want\nto for all I care.\pGrandfather decided that I should\ntake one of these Pok\emon.\pSince you have already stolen\nMareep it's only logical\pthat I will pick the one\nwhich is sure to be strong\lagainst yours - Bulbasaur.
 
 #org @gopick
-M walk_left walk_down walk_down walk_left walk_left walk_left walk_left walk_left walk_left end
+M walk_left walk_left walk_up walk_up walk_up walk_up walk_up look_left end
+
+#org @watch
+M pause_long pause_long look_left pause_long pause_long pause_long pause_long look_up end
 
 #org @rival2
 = \v\h06 received the\nBulbasaur!
 
 #org @walkback
-M walk_right walk_right walk_right walk_right walk_right walk_right walk_up walk_up walk_up end
+M walk_down walk_down walk_down walk_down walk_down walk_right walk_right look_up end
+
+#org @watchback
+M pause_long pause_long pause_long look_left pause_long pause_long pause_long look_down end
 
 #org @rival3
 = \v\h06: Let's see if I can\nstop you or not.
 
 #org @winner
-= \v\h06: I knew I was\nbetter than you.\pJust wait untill I\ntell grandfather.
+= \v\h06: I knew I was\nbetter than you.
 
 #org @loser
-= \v\h06: Darn!\nYou cheated!\pJust wait untill I\ntell grandfather.
+= \v\h06: Darn!\nYou cheated!
+
+#org @rival4
+= \v\h06: Just wait until I\ntell grandfather.
 
 #org @leave
-M walk_down walk_right end
+M walk_right walk_right walk_right walk_right walk_right walk_right end

@@ -22,5 +22,9 @@ Original
 offset		Hodnota		Nova hodnota
 5F2E0		0x97		99
 
+AM: 151 Grandfather - overworld header: 728900, overworld images: F00000
+AM: 152 Maid - overworld header: 72896C, overworld images: F00900
+AM: 153 Cook - overworld header: 7289D8, overworld images: F01200
+
 Lokace headeru pro tilesety 2D4A94
 	druha hodnota tilesetu 16 (s 0 je to 17) prepsana z 01 na 00 a pointer na palety zmenen z B8A327 na 947627 (aka paleta tilesetu 12 - s 0 je to 13) behavior data zmeneno z B0DB71 na B4FF2A

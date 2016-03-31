@@ -22,7 +22,7 @@ textcolor BLUE
 return
 
 #org @pick
-= \v\h01: I should pick one\nPok\emon before I leave.
+= \v\h01: I should pick a\nPok\emon before I leave.
 
 #org @back
 M walk_left end
