@@ -4,6 +4,7 @@ lockall
 getplayerxy 0x4001 0x4002
 compare 0x4002 0x0C
 if == call @right
+sound 0x8
 reappear 0x1
 playsound 0x0 0x013B
 applymovement 0x1 @appear
@@ -18,6 +19,7 @@ callstd MSG_NORMAL
 applymovement PLAYER @look
 applymovement 0x1 @leave
 pauseevent 0x0
+sound 0x8
 fadescreen FADEOUT_BLACK
 disappear 0x1
 fadescreen FADEIN_BLACK

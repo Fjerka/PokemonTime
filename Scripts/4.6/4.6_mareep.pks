@@ -75,6 +75,7 @@ releaseall
 end
 
 #org @rivalenter
+sound 0x8
 playsound 0x0 0x13B
 clearflag 0x028
 reappear 0x0A
@@ -112,6 +113,7 @@ message @rival4
 callstd MSG_NORMAL
 applymovement 0x0A @leave
 pauseevent 0x0
+sound 0x8
 fadescreen FADEOUT_BLACK
 setflag 0x28
 disappear 0x0A
@@ -172,7 +174,7 @@ M pause_long pause_long pause_long look_left pause_long pause_long pause_long lo
 = \v\h06: Darn!\nYou cheated!
 
 #org @rival4
-= \v\h06: Just wait until I\ntell grandfather.
+= \v\h06: Just wait until I\ntell grandfather!
 
 #org @leave
 M walk_right walk_right walk_right walk_right walk_right walk_right end
