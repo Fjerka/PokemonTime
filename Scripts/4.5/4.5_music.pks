@@ -1,0 +1,4 @@
+#dyn 0x740000
+#org @start
+playsound 0x0 0x014B
+end

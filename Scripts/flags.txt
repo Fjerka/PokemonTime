@@ -11,3 +11,7 @@ cislo	kde	co/kdo
 209	4.6	pokebal pro mudkip 8
 210	4.6	pokebal pro aron 9
 028	4.6	rival
+20A	4.3	viditelnost grandfather
+20B	4.3	viditelnost rival
+20C	4.3	viditelnost security
+20D	3.0	viditelnost 2x security

@@ -7,3 +7,5 @@ Hodnota	Kde	Na	Co
 5	4.7	6	= po rozhovoru s nanny
 6	4.7	7	= po odemknuti dveri
 7	4.6	8	= po ziskani prvniho pokemona a po bitve s rivalem
+8	4.3	9	= po rozhovoru s dedou
+9		A

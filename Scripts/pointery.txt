@@ -23,12 +23,18 @@ offset		Hodnota		Nova hodnota
 5F2E0		0x97		99
 
 AM: 15 Nanny: overworld header: 3A3C88, hodnota do vykreslovani: 13, intro palette: 461CD4 7. 8. row
-AM: 151 Grandfather - overworld header: 728900, overworld images: F00000, hodnota do vykreslovani: 1A
+AM: 14 Grandfather - overworld header: 3A3C64, overworld images: F00000, hodnota do vykreslovani: 1A
 AM: 152 Maid - overworld header: 72896C, overworld images: F00900
 AM: 153 Cook - overworld header: 7289D8, overworld images: F01200, hodnota do vykreslovani: 15
-AM: 72 Rival - overworld header: 3A4834, hodnota do vykreslovani: 14, intro palette: 4623AC 7. 8. row
+AM: 72 Rival - overworld header: 3A4834, hodnota do vykreslovani: 1A, intro palette: 4623AC 7. 8. row
 Boy - intro palette: 4615FC 5. 6. row
 Girl - intro palette: 460ED4 5. 6. row
 
 Lokace headeru pro tilesety 2D4A94
 	druha hodnota tilesetu 16 (s 0 je to 17) prepsana z 01 na 00 a pointer na palety zmenen z B8A327 na 947627 (aka paleta tilesetu 12 - s 0 je to 13) behavior data zmeneno z B0DB71 na B4FF2A
+
+Lokace scriptu po faintnuti vsech pkmnu
+Puvodni		Nova		Offset		Pro
+1A8DD8		743FE2		7F5EC		navrat domu
+
+nop the 8 bytes at 080484 to make trainerbattle 0x9 not have oak's text

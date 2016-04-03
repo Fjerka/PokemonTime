@@ -1,0 +1,6 @@
+#dyn 0x740000
+#org @main
+setflag 0x20D
+disappear 0x4
+disappear 0x5
+end
