@@ -1,0 +1,38 @@
+(ENotAPointer) AdvanceMapError(5): The value at $352784 is not a Pointer! Please contakt luhopoke@gmail.com
+Stacktrace:
+  $00580366
+  $00443929
+  $0046FD6E
+  $0046F8C7
+  $004727B8
+  $0051859E
+  $00519B01
+  $0040AFFA
+  $00510E72
+  $005472D7
+  $0056FE17
+  $0052F6E5
+  $767784F3
+  $76756C40
+  $76756541
+  $76756300
+  $005324F8
+
+AdvanceMap Version: 1.9.5.0
+
+Rom informations:
+Filename: C:\Hry\PKMN\PokemonTime\_hackROM\PokemonTime2.GBA
+Romname: POKEMON FIREBPRE
+
+Actual position:
+aktModularForm: AMMainForm
+CurrentViewID: 0
+MapIndex: 3.0
+OldMapIndex: 3.0
+LoadingMapIndex: 3.0
+isMapFile: false
+MapHeaderData: E4E32D0888F971087CF47108802735083A014F005900020101060000
+MapFooterData: 1E0000001C000000DCD42D0884337208944A2D08C44A2D0802020000
+EventHeaderData: 0100050020F9710838F9710838F9710888F97108
+Connections (ConDataOffset/ConnectionAmount): $352748 / -1
+WildPokemonHeader: 03000000B0F47100DC973C00000000000C983C00
